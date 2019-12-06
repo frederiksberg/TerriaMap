@@ -80,7 +80,7 @@ module.exports = terria.start({
 
         // Create the various base map options.
         var createAustraliaBaseMapOptions = require('terriajs/lib/ViewModels/createAustraliaBaseMapOptions');
-        var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+        var createGlobalBaseMapOptions = require('./lib/ViewModels/createGlobalBaseMapOptions');
         var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 
         var australiaBaseMaps = createAustraliaBaseMapOptions(terria);

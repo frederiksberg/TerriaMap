@@ -1,10 +1,8 @@
 import {
-  Menu,
   Nav,
   ExperimentalMenu
 } from "terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups";
 import MeasureTool from "terriajs/lib/ReactViews/Map/Navigation/MeasureTool";
-import MenuItem from "terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem";
 import PropTypes from "prop-types";
 import React from "react";
 import SplitPoint from "terriajs/lib/ReactViews/SplitPoint";
